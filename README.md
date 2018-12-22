@@ -10,10 +10,10 @@ docker images
 ```
 For running that image you will need to write this command
 ```
-docker build -v /path/to/your/folder:/path/to/the/workspace docker_python_csv
+docker run -v /path/to/your/folder:/path/to/the/workspace docker_python_csv
 ```
 which in my case (and just for the sake of remembering it, is)
 ```
-docker build -v /Users/pasqui/code/sandbox/docker-python-csv:/app docker_python_csv
+docker run -v /Users/pasqui/code/sandbox/docker-python-csv:/app docker_python_csv
 ```
 After running this, you should see a new csv in your current folder. 
