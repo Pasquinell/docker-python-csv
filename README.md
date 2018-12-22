@@ -1,5 +1,5 @@
 # Docker for runing data science projects 
-Image for building a docker image for runing the code contained in app.py
+Template for building a docker image.
 This image is based on [this](https://towardsdatascience.com/beginners-guide-to-data-science-python-docker-3181fd321a5c) article. I have made small tweaks in order to load a csv and then save a new csv in the localhost. This changes include change de requierements.txt file, including pandas on it, and then modifying the code to load, change and save a csv. For building this container go to the folder that contain this repo and then type (you need to have docker installed):
 ```
 docker build -t docker_python_csv .
