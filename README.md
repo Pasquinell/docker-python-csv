@@ -7,9 +7,9 @@ docker build -t docker_python_csv .
 Then you will have a docker image installed in your machine. If you want to check that image write:
 ```
 docker images
-'''
+```
 For running that image you will need to write this command
-'''
+```
 docker build -v /path/to/your/folder:/path/to/the/workspace docker_python_csv
 ```
 which in my case (and just for the sake of remembering it, is)
